@@ -24,7 +24,8 @@ public class SingInActivity extends AppCompatActivity {
     }
 
     private void setListeners(){
-        binding.textCreateNewAccount.setOnClickListener(v ->
-                startActivity(new Intent(getApplicationContext(), SignUpActivity.class)));
+        binding.textCreateNewAccount.setOnClickListener(v -> {
+            startActivity(new Intent(getApplicationContext(), SignUpActivity.class));
+        });
     }
 }
