@@ -32,10 +32,6 @@ android {
     }
     buildFeatures{
         viewBinding = true
-        dataBinding = true
-    }
-    viewBinding {
-        enable = true
     }
 }
 
