@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "978946155655",
+    "firebase_url": "https://webrtcandroidp2p-default-rtdb.firebaseio.com",
+    "project_id": "webrtcandroidp2p",
+    "storage_bucket": "webrtcandroidp2p.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:978946155655:android:bba12bcf1e9bfc7da78422",
+        "android_client_info": {
+          "package_name": "com.example.androidp2p"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDM3CM7AtK9S4BZ2KJcKIpgP0gAjj7_I8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

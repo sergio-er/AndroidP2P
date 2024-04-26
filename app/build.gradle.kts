@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.androidApplication)
     alias(libs.plugins.jetbrainsKotlinAndroid)
+    id("com.google.gms.google-services")
 }
 
 android {
@@ -44,6 +45,19 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    //Firebase
+    implementation(platform("com.google.firebase:firebase-bom:32.8.1"))
+    implementation("com.google.firebase:firebase-database-ktx:20.3.1")
+
+    //Gson
+    implementation("com.google.code.gson:gson:2.10.1")
+
+    //WebRTC Mesibo
+    implementation("com.mesibo.api:webrtc:1.0.5")
+
+    //Easy Permissions
+    implementation("com.guolindev.permissionx:permissionx:1.6.1")
 
     //Scalable Size Unit (support for different screen sizes)
     implementation("com.intuit.sdp:sdp-android:1.0.6")
