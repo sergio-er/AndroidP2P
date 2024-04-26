@@ -7,6 +7,7 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.androidp2p.databinding.ActivitySingInBinding;
+import com.google.firebase.database.FirebaseDatabase;
 
 public class SingInActivity extends AppCompatActivity {
 
@@ -15,6 +16,7 @@ public class SingInActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        FirebaseDatabase.getInstance().getReference().child("sergio").setValue("Testing3");
         EdgeToEdge.enable(this);
         binding = ActivitySingInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
