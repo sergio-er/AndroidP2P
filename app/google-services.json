@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075434520338",
+    "project_id": "chatapp-a485e",
+    "storage_bucket": "chatapp-a485e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075434520338:android:c63dcdea004f7318997dcb",
+        "android_client_info": {
+          "package_name": "com.example.androidp2p"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgAbjG9jSIWGL9_KKqS6TR6sBo1PoKrHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
