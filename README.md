@@ -15,4 +15,4 @@ Follow the link for a quick demonstration of the app functioning https://youtu.b
 
 ## Reference
 
-Proyect Structure influcenced by https://www.youtube.com/@chiragkachhadiya
+Project Structure influcenced by https://www.youtube.com/@chiragkachhadiya
