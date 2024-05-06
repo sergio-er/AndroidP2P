@@ -12,3 +12,7 @@ It allows for users to create accouunt and message other users through the app. 
 
 ## Video
 Follow the link for a quick demonstration of the app functioning https://youtu.be/w2GJUpwXVAw
+
+## Reference
+
+Proyect Structure influcenced by https://www.youtube.com/@chiragkachhadiya
